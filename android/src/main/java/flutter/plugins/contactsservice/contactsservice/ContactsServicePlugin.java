@@ -251,9 +251,7 @@ public class ContactsServicePlugin implements MethodCallHandler, FlutterPlugin, 
           finishWithResult(FORM_OPERATION_CANCELED);
         }
         return true;
-      } else {
-        finishWithResult(FORM_COULD_NOT_BE_OPEN);
-      }
+      } 
       return false;
     }
 
